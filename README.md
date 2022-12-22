@@ -19,3 +19,4 @@ We expect you to:
 ## The solution
 
 You can find my solution in the `widget` folder.
+The commit history has been squashed in order to hide any company reference.
