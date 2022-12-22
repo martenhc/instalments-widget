@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "lit-a11y"
+  ],
+  "extends": [
+    "plugin:lit-a11y/recommended"
+  ]
+}

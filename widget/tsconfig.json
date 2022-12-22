@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "target": "es6",
+    "experimentalDecorators": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "ts-lit-plugin",
+        "strict": true
+      }
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@asset/*": [
+        "src/asset/*"
+      ],
+      "@component/*": [
+        "src/component/*"
+      ],
+      "@data/*": [
+        "src/data/*"
+      ],
+      "@util/*": [
+        "src/util/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts",
+    "src/@type/import-meta.d.mts"
+  ]
+}
